@@ -23,8 +23,7 @@ spec:
         app: first-depl
     spec:
       containers:
-      - image: devopsnthn/byete-hunger
-        imagePullPolicy: Always
-        name: byete-hunger
+      - name: byete-hunger
+        image: devopsnthn/byete-hunger
         ports:
         - containerPort: 80
